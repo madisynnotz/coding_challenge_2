@@ -51,3 +51,18 @@ customers.push({name: "Sarah Vincent", email: "vincent.sarah@gmail.com", purchas
 
 
 console.log(customers);
+
+// Task 5: Object Methods //
+let order = {
+    orderId: "100",
+    customerName: "Kendall Vertes",
+    amount: 75,
+    calculateTax: function() {
+        const taxRate = 0.07;  
+        return this.amount * taxRate;    
+    }
+};    
+
+
+console.log(order);  
+console.log(order.calculateTax()); 
