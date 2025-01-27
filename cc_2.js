@@ -22,7 +22,7 @@ console.log("Average of Scores:",average);
 let employee = {
     name: "Elena Brooks",
     age: 27,
-    department: "Analytics",
+    department: "HR",
     isActive: true
 };    
 
@@ -35,16 +35,16 @@ console.log("updated employee record");
 
 // Task 4: Array of Objects //
 let customers = [
-    {name: "Tyrone Biggums", email: "Biggums@gmail.com", purchaseAmount: 100},
-    {name: "Carl Johnson", email: "Johnson@gmail.com", purchaseAmount: 200},
-    {name: "Trevor Philps", email: "Philps@gmail.com", purchaseAmount: 300}
-];    // Array of objects of customers
+    {name: "Joe Smith", email: "smith.joe@gmail.com", purchaseAmount: 100},
+    {name: "Emily Kingston", email: "kingston.emily@gmail.com", purchaseAmount: 200},
+    {name: "Kendall Vertes", email: "vertes.kendall@gmail.com", purchaseAmount: 300}
+];   
 
-console.log(customers);    // Print the array of objects of customers
+console.log(customers);    
 
-customers.push({name: "Franklin Clinton", email: "Clinton@gmail.com", purchaseAmount: 400});    // Add a new customer to the array
+customers.push({name: "Franklin Clinton", email: "Clinton@gmail.com", purchaseAmount: 400});    
 
-console.log(customers);    // Print the array of objects of customers
+console.log(customers);    
 
 // Task 5: Object Methods //
 let order = {
@@ -52,10 +52,10 @@ let order = {
     customerName: "Tyrone Biggums",
     amount: 50,
     calculateTax: function() {
-        const taxRate = 0.10;    // Tax rate
-        return this.amount * taxRate;    // Calculate the tax amount
+        const taxRate = 0.10;   
+        return this.amount * taxRate;    
     }
-};    // Object of order
+};    
 
-console.log(order);    // Print the object of order
-console.log(order.calculateTax());    // Print the tax amount
+console.log(order);   
+console.log(order.calculateTax());    
