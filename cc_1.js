@@ -36,3 +36,10 @@ console.log("after multiplying by 2:", accountBalance);
 
 accountBalance /= 4;
 console.log("After dividing by 4:", accountBalance)
+
+//Task 4 - Customer Messaging
+let customerName = "Matt";
+
+
+let welcomeMessage = "Hello, " + customerName + "!Welcome to the store.";
+console.log (welcomeMessage);
