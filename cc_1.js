@@ -17,3 +17,22 @@ var isAvailable = true;
 console.log(productName, typeof productName);
 console.log(productPrice, typeof productPrice);
 console.log(isAvailable, typeof isAvailable);
+
+//Task 3 - Financial transactions
+let accountBalance = 1000;
+
+
+accountBalance +=300
+console.log("After adding 300:", accountBalance);
+
+
+accountBalance -=100;
+console.log("After subtracting 100:", accountBalance);
+
+
+accountBalance *=2;
+console.log("after multiplying by 2:", accountBalance);
+
+
+accountBalance /= 4;
+console.log("After dividing by 4:", accountBalance)
