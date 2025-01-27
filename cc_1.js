@@ -7,3 +7,13 @@ console.log(employeeID, typeof employeeID);
  
 var isActive = true;
 console.log(isActive, typeof isActive);
+
+//Task 2 - Product Details
+let productName = "Textbook"
+const productPrice = 70.98;
+var isAvailable = true;
+
+
+console.log(productName, typeof productName);
+console.log(productPrice, typeof productPrice);
+console.log(isAvailable, typeof isAvailable);
