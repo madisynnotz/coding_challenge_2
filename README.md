@@ -1,2 +1,2 @@
-## Coding Challenge 1
+## Coding Challenge 2
 Here is my coding challenge.
