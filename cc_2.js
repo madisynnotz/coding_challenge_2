@@ -35,3 +35,19 @@ employee.position = "Manager";
 
 
 console.log("updated employee record");
+
+// Task 4: Array of Objects //
+let customers = [
+    {name: "Joe Smith", email: "smith.joe@gmail.com", purchaseAmount: 200},
+    {name: "Emily Kingston", email: "kingston.emily@gmail.com", purchaseAmount: 400},
+    {name: "Kendall Vertes", email: "vertes.kendall@gmail.com", purchaseAmount: 100}
+];  
+
+
+console.log(customers);    
+
+
+customers.push({name: "Sarah Vincent", email: "vincent.sarah@gmail.com", purchaseAmount: 300});    
+
+
+console.log(customers);
