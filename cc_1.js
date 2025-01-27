@@ -43,3 +43,13 @@ let customerName = "Matt";
 
 let welcomeMessage = "Hello, " + customerName + "!Welcome to the store.";
 console.log (welcomeMessage);
+
+//Task 5 - Access Control
+let isLoggedIn = true;
+
+
+if (isLoggedIn) {
+    console.log("Access granted.");
+} else {
+    console.log("Access denied.");
+}
