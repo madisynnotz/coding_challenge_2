@@ -16,4 +16,22 @@ let averageScore = total / scores.length;
 
 
 console.log("Updated list of Scores:", scores);    
-console.log("Average of Scores:",83);  
+console.log("Average of Scores:",83); 
+
+// Task 3: Working with Objects //
+let employee = {
+    name: "Elena Brooks",
+    age: 27,
+    department: "HR",
+    isActive: true
+};    
+
+
+console.log(employee);    
+
+
+employee.department = "Logistics";    
+employee.position = "Manager";    
+
+
+console.log("updated employee record");
